@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_back04">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:background="#E0FFFF"
+        android:gravity="center"
+        android:text="CHỌN MÀN"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cua1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="175dp"
+        android:backgroundTint="#FF8C00"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cua2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF8C00"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/cua3"
+        app:layout_constraintStart_toEndOf="@+id/cua1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/cua3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:backgroundTint="#FF8C00"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/cua4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF8C00"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cua1" />
+
+    <Button
+        android:id="@+id/cua5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF8C00"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/cua6"
+        app:layout_constraintStart_toEndOf="@+id/cua4"
+        app:layout_constraintTop_toBottomOf="@+id/cua2" />
+
+    <Button
+        android:id="@+id/cua6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:backgroundTint="#FF8C00"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cua3" />
+
+    <Button
+        android:id="@+id/cua7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF8C00"
+        android:text="7"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cua4" />
+
+    <Button
+        android:id="@+id/cua8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF8C00"
+        android:text="8"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/cua9"
+        app:layout_constraintStart_toEndOf="@+id/cua7"
+        app:layout_constraintTop_toBottomOf="@+id/cua5" />
+
+    <Button
+        android:id="@+id/cua9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:backgroundTint="#FF8C00"
+        android:text="9"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cua6" />
+
+    <Button
+        android:id="@+id/cua10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF8C00"
+        android:text="10"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cua7" />
+
+    <Button
+        android:id="@+id/cua11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF8C00"
+        android:text="11"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/cua12"
+        app:layout_constraintStart_toEndOf="@+id/cua10"
+        app:layout_constraintTop_toBottomOf="@+id/cua8" />
+
+    <Button
+        android:id="@+id/cua12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:backgroundTint="#FF8C00"
+        android:text="12"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cua9" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="77dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginLeft="334dp"
+        android:backgroundTint="#E0FFFF"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
